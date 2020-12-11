@@ -19,9 +19,9 @@ class App {
                  arr[k] = temp;
                    for(int j = i + 1 ; j < given.length() ; j++){
                       if (!(Character.isAlphabetic(given.charAt(j)))) { 
-                          temp = temp + Character.getNumericValue(given.charAt(j));
-                          arr[k] = temp;
-                          i++;
+                           temp = temp + Character.getNumericValue(given.charAt(j));
+                           arr[k] = temp;
+                           i++;
                        }else{
                            k++;
                            break;
